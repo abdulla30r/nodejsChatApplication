@@ -55,4 +55,5 @@ app.use(errorHandler);
 
 app.listen(process.env.PORT, () => {
 	console.log(`App listening to port ${process.env.PORT}`);
+	console.log(`http://localhost:${process.env.PORT}`)
 });
